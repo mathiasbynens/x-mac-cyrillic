@@ -64,6 +64,10 @@ require(
 
 A string representing the semantic version number.
 
+### `xmaccyrillic.labels`
+
+An array of strings, each representing a [label](http://encoding.spec.whatwg.org/#label) for this encoding.
+
 ### `xmaccyrillic.encode(input, options)`
 
 This function takes a plain text string (the `input` parameter) and encodes it according to x-mac-cyrillic. The return value is a ‘byte string’, i.e. a string of which each item represents an octet as per x-mac-cyrillic.
