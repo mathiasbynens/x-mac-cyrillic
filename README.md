@@ -1,6 +1,6 @@
 # x-mac-cyrillic [![Build status](https://travis-ci.org/mathiasbynens/x-mac-cyrillic.svg?branch=master)](https://travis-ci.org/mathiasbynens/x-mac-cyrillic) [![Dependency status](https://gemnasium.com/mathiasbynens/x-mac-cyrillic.svg)](https://gemnasium.com/mathiasbynens/x-mac-cyrillic)
 
-_x-mac-cyrillic_ is robust JavaScript implementation of [the x-mac-cyrillic character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#x-mac-cyrillic).
+_x-mac-cyrillic_ is a robust JavaScript implementation of [the x-mac-cyrillic character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#x-mac-cyrillic).
 
 This encoding is known under the following names: x-mac-cyrillic, x-mac-ukrainian, and x-mac-ukrainian.
 
