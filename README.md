@@ -2,7 +2,7 @@
 
 _x-mac-cyrillic_ is a robust JavaScript implementation of [the x-mac-cyrillic character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#x-mac-cyrillic).
 
-This encoding is known under the following names: x-mac-cyrillic, x-mac-ukrainian, and x-mac-ukrainian.
+This encoding is known under the following names: x-mac-cyrillic, and x-mac-ukrainian.
 
 ## Installation
 

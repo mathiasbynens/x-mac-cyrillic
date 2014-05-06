@@ -1,4 +1,4 @@
-/*! http://mths.be/x-mac-cyrillic v0.1.0 by @mathias | MIT license */
+/*! http://mths.be/x-mac-cyrillic v0.1.1 by @mathias | MIT license */
 ;(function(root) {
 
 	// Detect free variables `exports`.
@@ -119,7 +119,7 @@
 			'x-mac-cyrillic',
 			'x-mac-ukrainian'
 		],
-		'version': '0.1.0'
+		'version': '0.1.1'
 	};
 
 	// Some AMD build optimizers, like r.js, check for specific condition patterns
