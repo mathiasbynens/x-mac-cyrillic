@@ -24,7 +24,7 @@
 
 	// The `xmaccyrillic` object to test
 	var xmaccyrillic = root.xmaccyrillic || (root.xmaccyrillic = (
-		xmaccyrillic = load('../xmaccyrillic.js') || root.xmaccyrillic,
+		xmaccyrillic = load('../x-mac-cyrillic.js') || root.xmaccyrillic,
 		xmaccyrillic = xmaccyrillic.xmaccyrillic || xmaccyrillic
 	));
 

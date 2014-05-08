@@ -8,28 +8,47 @@
 	<body>
 		<div id="qunit"></div>
 		<script src="../node_modules/qunitjs/qunit/qunit.js"></script>
-		<script src="../xmaccyrillic.js"></script>
+		<script src="../x-mac-cyrillic.js"></script>
 		<script>
-			// populate `QUnit.urlParams`
 			QUnit.urlParams.norequire = /[?&]norequire=true(?:&|$)/.test(location.search);
 
-			// load tests.js if not using require.js
 			document.write(QUnit.urlParams.norequire
 				? '<script src="tests.js"><\/script>'
 				: '<script src="../node_modules/requirejs/require.js"><\/script>'
 			);
 		</script>
 		<script>
-			window.require && require({
-				'baseUrl': '../node_modules/requirejs/',
-				'urlArgs': 't=' + (+new Date),
-				'paths': {
-					'xmaccyrillic': '../../xmaccyrillic'
+			(function(root) {
+				if (!root.require) {
+					return;
 				}
-			},
-			['xmaccyrillic'], function(xmaccyrillic) {
-				require(['tests.js']);
-			});
+				QUnit.config.autostart = false;
+
+				requirejs.config({
+					'baseUrl': './',
+					'urlArgs': 't=' + (+new Date),
+					'waitSeconds': 0,
+					'packages': [
+						{
+							'name': 'x-mac-cyrillic',
+							'location': '..',
+							'main': 'x-mac-cyrillic'
+						},
+						{
+							'name': 'tests',
+							'location': '.',
+							'main': 'tests'
+						}
+					]
+				});
+
+				require(['x-mac-cyrillic'], function(xmaccyrillic) {
+					root.xmaccyrillic = xmaccyrillic;
+					require(['tests'], function() {
+						QUnit.start();
+					});
+				});
+			}(this));
 		</script>
 	</body>
 </html>

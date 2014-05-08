@@ -51,7 +51,7 @@ module.exports = function(grunt) {
 					}
 				},
 				'files': {
-					'xmaccyrillic.js': ['src/xmaccyrillic.js']
+					'x-mac-cyrillic.js': ['src/x-mac-cyrillic.js']
 				}
 			},
 			'build-tests': {

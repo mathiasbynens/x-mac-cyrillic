@@ -48,10 +48,10 @@ Using an AMD loader like [RequireJS](http://requirejs.org/):
 require(
   {
     'paths': {
-      'xmaccyrillic': 'path/to/xmaccyrillic'
+      'x-mac-cyrillic': 'path/to/x-mac-cyrillic'
     }
   },
-  ['xmaccyrillic'],
+  ['x-mac-cyrillic'],
   function(xmaccyrillic) {
     console.log(xmaccyrillic);
   }

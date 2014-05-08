@@ -3,7 +3,7 @@
 	"version": "0.1.1",
 	"description": "A robust x-mac-cyrillic encoder/decoder written in JavaScript.",
 	"homepage": "http://mths.be/x-mac-cyrillic",
-	"main": "xmaccyrillic.js",
+	"main": "x-mac-cyrillic.js",
 	"keywords": [
 		"codec",
 		"decoder",
@@ -31,7 +31,7 @@
 	},
 	"files": [
 		"LICENSE-MIT.txt",
-		"xmaccyrillic.js"
+		"x-mac-cyrillic.js"
 	],
 	"directories": {
 		"test": "tests"
