@@ -1,6 +1,6 @@
 {
 	"name": "x-mac-cyrillic",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A robust x-mac-cyrillic encoder/decoder written in JavaScript.",
 	"homepage": "http://mths.be/x-mac-cyrillic",
 	"main": "x-mac-cyrillic.js",
