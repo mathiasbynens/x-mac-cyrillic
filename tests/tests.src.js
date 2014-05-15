@@ -35,7 +35,7 @@
 
 	// explicitly call `QUnit.module()` instead of `module()`
 	// in case we are in a CLI environment
-	QUnit.module('xmaccyrillic');
+	QUnit.module('x-mac-cyrillic');
 
 	test('xmaccyrillic.encode', function() {
 		equal(
