@@ -1,4 +1,4 @@
-# x-mac-cyrillic [![Build status](https://travis-ci.org/mathiasbynens/x-mac-cyrillic.svg?branch=master)](https://travis-ci.org/mathiasbynens/x-mac-cyrillic) [![Dependency status](https://gemnasium.com/mathiasbynens/x-mac-cyrillic.svg)](https://gemnasium.com/mathiasbynens/x-mac-cyrillic)
+# x-mac-cyrillic [![Build status](https://travis-ci.org/mathiasbynens/x-mac-cyrillic.svg?branch=master)](https://travis-ci.org/mathiasbynens/x-mac-cyrillic) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/x-mac-cyrillic/master.svg)](https://coveralls.io/r/mathiasbynens/x-mac-cyrillic) [![Dependency status](https://gemnasium.com/mathiasbynens/x-mac-cyrillic.svg)](https://gemnasium.com/mathiasbynens/x-mac-cyrillic)
 
 _x-mac-cyrillic_ is a robust JavaScript implementation of [the x-mac-cyrillic character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#x-mac-cyrillic).
 
