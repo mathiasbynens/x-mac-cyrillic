@@ -1,4 +1,4 @@
-/*! http://mths.be/x-mac-cyrillic v0.1.2 by @mathias | MIT license */
+/*! https://mths.be/x-mac-cyrillic v0.1.2 by @mathias | MIT license */
 ;(function(root) {
 
 	// Detect free variables `exports`.
