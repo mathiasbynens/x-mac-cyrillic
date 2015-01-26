@@ -1,4 +1,4 @@
-# x-mac-cyrillic [![Build status](https://travis-ci.org/mathiasbynens/x-mac-cyrillic.svg?branch=master)](https://travis-ci.org/mathiasbynens/x-mac-cyrillic) [![Code coverage status](http://img.shields.io/coveralls/mathiasbynens/x-mac-cyrillic/master.svg)](https://coveralls.io/r/mathiasbynens/x-mac-cyrillic) [![Dependency status](https://gemnasium.com/mathiasbynens/x-mac-cyrillic.svg)](https://gemnasium.com/mathiasbynens/x-mac-cyrillic)
+# x-mac-cyrillic [![Build status](https://travis-ci.org/mathiasbynens/x-mac-cyrillic.svg?branch=master)](https://travis-ci.org/mathiasbynens/x-mac-cyrillic) [![Code coverage status](https://coveralls.io/repos/mathiasbynens/x-mac-cyrillic/badge.svg)](https://coveralls.io/r/mathiasbynens/x-mac-cyrillic) [![Dependency status](https://gemnasium.com/mathiasbynens/x-mac-cyrillic.svg)](https://gemnasium.com/mathiasbynens/x-mac-cyrillic)
 
 _x-mac-cyrillic_ is a robust JavaScript implementation of [the x-mac-cyrillic character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#x-mac-cyrillic).
 
@@ -6,7 +6,7 @@ This encoding is known under the following names: x-mac-cyrillic, and x-mac-ukra
 
 ## Installation
 
-Via [npm](http://npmjs.org/):
+Via [npm](https://www.npmjs.com/):
 
 ```bash
 npm install x-mac-cyrillic
@@ -30,7 +30,7 @@ In a browser:
 <script src="x-mac-cyrillic.js"></script>
 ```
 
-In [Narwhal](http://narwhaljs.org/), [Node.js](http://nodejs.org/), and [RingoJS](http://ringojs.org/):
+In [Node.js](https://nodejs.org/), [io.js](https://iojs.org/), [Narwhal](http://narwhaljs.org/), and [RingoJS](http://ringojs.org/):
 
 ```js
 var xmaccyrillic = require('x-mac-cyrillic');
@@ -106,7 +106,7 @@ var text = xmaccyrillic.decode(encodedData, {
 
 ## Support
 
-_x-mac-cyrillic_ is designed to work in at least Node.js v0.10.0, Narwhal 0.3.2, RingoJS 0.8-0.9, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
+_x-mac-cyrillic_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, and Internet Explorer.
 
 ## Unit tests & code coverage
 
@@ -118,7 +118,7 @@ To generate the code coverage report, use `grunt cover`.
 
 ## Notes
 
-[Similar modules for other single-byte legacy encodings are available.](https://www.npmjs.org/browse/keyword/legacy-encoding)
+[Similar modules for other single-byte legacy encodings are available.](https://www.npmjs.com/browse/keyword/legacy-encoding)
 
 ## Author
 
