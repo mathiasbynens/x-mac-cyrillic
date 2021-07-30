@@ -1,4 +1,4 @@
-# x-mac-cyrillic [![x-mac-cyrillic on npm](https://img.shields.io/npm/v/x-mac-cyrillic)](https://www.npmjs.com/package/x-mac-cyrillic)
+# x-mac-cyrillic [![Build status](https://github.com/mathiasbynens/x-mac-cyrillic/workflows/run-checks/badge.svg)](https://github.com/mathiasbynens/x-mac-cyrillic/actions?query=workflow%3Arun-checks) [![x-mac-cyrillic on npm](https://img.shields.io/npm/v/x-mac-cyrillic)](https://www.npmjs.com/package/x-mac-cyrillic)
 
 _x-mac-cyrillic_ is a robust JavaScript implementation of [the x-mac-cyrillic character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#x-mac-cyrillic).
 
