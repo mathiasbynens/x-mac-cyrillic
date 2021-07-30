@@ -1,4 +1,4 @@
-# x-mac-cyrillic [![Build status](https://travis-ci.org/mathiasbynens/x-mac-cyrillic.svg?branch=master)](https://travis-ci.org/mathiasbynens/x-mac-cyrillic) [![Code coverage status](https://coveralls.io/repos/mathiasbynens/x-mac-cyrillic/badge.svg)](https://coveralls.io/r/mathiasbynens/x-mac-cyrillic) [![Dependency status](https://gemnasium.com/mathiasbynens/x-mac-cyrillic.svg)](https://gemnasium.com/mathiasbynens/x-mac-cyrillic)
+# x-mac-cyrillic [![x-mac-cyrillic on npm](https://img.shields.io/npm/v/x-mac-cyrillic)](https://www.npmjs.com/package/x-mac-cyrillic)
 
 _x-mac-cyrillic_ is a robust JavaScript implementation of [the x-mac-cyrillic character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#x-mac-cyrillic).
 
@@ -18,32 +18,10 @@ In a browser:
 <script src="x-mac-cyrillic.js"></script>
 ```
 
-In [Node.js](https://nodejs.org/), [io.js](https://iojs.org/), [Narwhal](http://narwhaljs.org/), and [RingoJS](http://ringojs.org/):
+In [Node.js](https://nodejs.org/):
 
 ```js
-var xmaccyrillic = require('x-mac-cyrillic');
-```
-
-In [Rhino](https://www.mozilla.org/rhino/):
-
-```js
-load('xmaccyrillic.js');
-```
-
-Using an AMD loader like [RequireJS](http://requirejs.org/):
-
-```js
-require(
-  {
-    'paths': {
-      'x-mac-cyrillic': 'path/to/x-mac-cyrillic'
-    }
-  },
-  ['x-mac-cyrillic'],
-  function(xmaccyrillic) {
-    console.log(xmaccyrillic);
-  }
-);
+const xmaccyrillic = require('x-mac-cyrillic');
 ```
 
 ## API
@@ -68,7 +46,7 @@ The optional `options` object and its `mode` property can be used to set the [er
 
 ```js
 const encodedData = xmaccyrillic.encode(text, {
-  'mode': 'html'
+  mode: 'html'
 });
 // If `text` contains a symbol that cannot be represented in x-mac-cyrillic,
 // instead of throwing an error, it will return an HTML entity for the symbol.
@@ -86,17 +64,13 @@ The optional `options` object and its `mode` property can be used to set the [er
 
 ```js
 const text = xmaccyrillic.decode(encodedData, {
-  'mode': 'fatal'
+  mode: 'fatal'
 });
 // If `encodedData` contains an invalid byte for the x-mac-cyrillic encoding,
 // instead of replacing it with U+FFFD in the output, an error is thrown.
 ```
 
 For decoding a buffer (e.g. from `fs.readFile`) use `buffer.toString('binary')` to get the byte string which `decode` takes.
-
-## Support
-
-_x-mac-cyrillic_ is designed to work in at least Node.js v0.10.0, io.js v1.0.0, Narwhal 0.3.2, RingoJS 0.8-0.11, PhantomJS 1.9.0, Rhino 1.7RC4, as well as old and modern versions of Chrome, Firefox, Safari, Opera, Edge, and Internet Explorer.
 
 ## Notes
 
