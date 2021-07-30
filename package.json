@@ -3,7 +3,7 @@
 	"version": "1.1.0",
 	"description": "A robust x-mac-cyrillic encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/x-mac-cyrillic",
-	"main": "x-mac-cyrillic.js",
+	"exports": "x-mac-cyrillic.mjs",
 	"keywords": [
 		"codec",
 		"decoder",
@@ -27,13 +27,13 @@
 	"bugs": "https://github.com/mathiasbynens/x-mac-cyrillic/issues",
 	"files": [
 		"LICENSE-MIT.txt",
-		"x-mac-cyrillic.js"
+		"x-mac-cyrillic.mjs"
 	],
 	"scripts": {
 		"download": "curl https://encoding.spec.whatwg.org/index-x-mac-cyrillic.txt > data/index.txt",
 		"build": "node scripts/transform-data.js",
-		"test": "node tests/tests.js",
-		"cover": "istanbul cover --report html --verbose --dir coverage tests/tests.js"
+		"test": "node tests/tests.mjs",
+		"cover": "istanbul cover --report html --verbose --dir coverage tests/tests.mjs"
 	},
 	"devDependencies": {
 		"istanbul": "^0.4.2",

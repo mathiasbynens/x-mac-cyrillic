@@ -12,23 +12,15 @@ Via [npm](https://www.npmjs.com/):
 npm install x-mac-cyrillic
 ```
 
-In a browser:
-
-```html
-<script src="x-mac-cyrillic.js"></script>
-```
-
-In [Node.js](https://nodejs.org/):
+In a browser or in [Node.js](https://nodejs.org/):
 
 ```js
-const xmaccyrillic = require('x-mac-cyrillic');
+import {encode, decode, labels} from 'x-mac-cyrillic';
+// or…
+import * as xmaccyrillic from 'x-mac-cyrillic';
 ```
 
 ## API
-
-### `xmaccyrillic.version`
-
-A string representing the semantic version number.
 
 ### `xmaccyrillic.labels`
 

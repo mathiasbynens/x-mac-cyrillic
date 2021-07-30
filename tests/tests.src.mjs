@@ -1,6 +1,6 @@
-const assert = require('assert');
+import assert from 'node:assert';
 
-const xmaccyrillic = require('../x-mac-cyrillic.js');
+import * as xmaccyrillic from '../x-mac-cyrillic.mjs';
 
 console.log('Testing `xmaccyrillic.encode`…');
 assert.strictEqual(
@@ -109,3 +109,7 @@ assert.throws(
 	Error,
 	'Mode names are case-insensitive'
 );
+
+console.log('Testing `xmaccyrillic.labels`…');
+assert.ok(Array.isArray(xmaccyrillic.labels));
+assert.ok(xmaccyrillic.labels.length > 0);
