@@ -1,4 +1,4 @@
-/*! https://mths.be/x-mac-cyrillic v1.1.0 by @mathias | MIT license */
+/*! https://mths.be/x-mac-cyrillic v2.0.0 by @mathias | MIT license */
 
 const stringFromCharCode = String.fromCharCode;
 
