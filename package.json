@@ -27,8 +27,10 @@
 	"bugs": "https://github.com/mathiasbynens/x-mac-cyrillic/issues",
 	"files": [
 		"LICENSE-MIT.txt",
-		"x-mac-cyrillic.mjs"
+		"x-mac-cyrillic.mjs",
+		"x-mac-cyrillic.d.ts"
 	],
+	"types": "x-mac-cyrillic.d.ts",
 	"scripts": {
 		"download": "curl https://encoding.spec.whatwg.org/index-x-mac-cyrillic.txt > data/index.txt",
 		"build": "node scripts/transform-data.js",
